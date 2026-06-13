@@ -206,7 +206,7 @@ Chief Compliance Officer: Amanda Torres
 }
 
 for path, content in documents.items():
-    with open(path, 'w') as f:
+    with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
 
 print(f"✓ Created {len(documents)} document files")
