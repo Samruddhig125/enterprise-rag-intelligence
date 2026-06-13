@@ -1,0 +1,7 @@
+vendor_id,vendor_name,category,annual_value_usd,start_date,end_date,status,notes
+VND001,CloudScale AWS,Infrastructure,480000,2024-01-01,2025-12-31,Active,Renew Q4 2025
+VND002,DataSecure Inc,Security Tools,120000,2024-03-01,2025-02-28,Active,Auto-renew
+VND003,HR Platform SaaS,HR Systems,96000,2023-06-01,2025-05-31,Active,Review pricing
+VND004,LegalDocs Pro,Legal,36000,2024-01-01,2024-12-31,Expired,Renewal pending
+VND005,SalesForce CRM,Sales,240000,2024-02-01,2026-01-31,Active,Multi-year deal
+VND006,MonitorPro,Observability,72000,2024-04-01,2025-03-31,Active,Evaluate alternatives

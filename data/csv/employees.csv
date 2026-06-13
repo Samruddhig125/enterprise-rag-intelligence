@@ -1,0 +1,16 @@
+emp_id,name,department,title,level,salary,email,status,hire_date
+EMP001,Alice Chen,Engineering,Senior Engineer,L3,128000,alice.chen@acme.com,active,2020-03-15
+EMP002,Bob Martinez,Finance,Financial Analyst,L2,89000,bob.martinez@acme.com,active,2021-07-22
+EMP003,Carol Singh,HR,HR Business Partner,L3,112000,carol.singh@acme.com,active,2019-11-01
+EMP004,David Kim,IT Security,Security Engineer,L3,134000,david.kim@acme.com,active,2020-06-10
+EMP005,Eve Johnson,Operations,Operations Manager,L4,162000,eve.johnson@acme.com,active,2018-02-28
+EMP006,Frank Osei,Engineering,Staff Engineer,L4,178000,frank.osei@acme.com,active,2017-09-14
+EMP007,Grace Liu,Legal,Senior Counsel,L4,185000,grace.liu@acme.com,active,2019-04-05
+EMP008,Henry Park,Sales,Account Executive,L2,78000,henry.park@acme.com,active,2022-01-10
+EMP009,Iris Patel,Engineering,Junior Engineer,L1,68000,iris.patel@acme.com,active,2023-08-21
+EMP010,Jack Thompson,Finance,CFO,L5,245000,jack.thompson@acme.com,active,2015-03-01
+EMP011,Karen White,IT,System Administrator,L2,82000,karen.white@acme.com,active,2021-05-17
+EMP012,Leo Nakamura,Engineering,Principal Engineer,L5,228000,leo.nakamura@acme.com,active,2016-07-19
+EMP013,Maria Rodriguez,HR,HR Director,L5,215000,maria.rodriguez@acme.com,active,2018-01-08
+EMP014,Nathan Brown,Sales,VP Sales,L5,238000,nathan.brown@acme.com,active,2017-11-30
+EMP015,Olivia Davis,Compliance,Compliance Officer,L3,118000,olivia.davis@acme.com,active,2020-09-22

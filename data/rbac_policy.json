@@ -1,0 +1,153 @@
+{
+  "roles": {
+    "executive": {
+      "description": "C-suite and VP level \u2014 full access",
+      "allowed_sources": [
+        "*"
+      ],
+      "denied_sources": [],
+      "can_see_salaries": true,
+      "can_see_financials": true,
+      "can_see_compliance": true,
+      "can_see_security_logs": true
+    },
+    "finance": {
+      "description": "Finance department employees",
+      "allowed_sources": [
+        "Q4_Financial_Report_2024",
+        "employees",
+        "vendor_contracts",
+        "Compliance_Audit_2024"
+      ],
+      "denied_sources": [
+        "security_audit_logs",
+        "IT_Security_Policy_2024"
+      ],
+      "can_see_salaries": false,
+      "can_see_financials": true,
+      "can_see_compliance": true,
+      "can_see_security_logs": false
+    },
+    "hr": {
+      "description": "Human Resources department",
+      "allowed_sources": [
+        "HR_Policy_Handbook_2024",
+        "employees",
+        "Compliance_Audit_2024"
+      ],
+      "denied_sources": [
+        "Q4_Financial_Report_2024",
+        "security_audit_logs"
+      ],
+      "can_see_salaries": true,
+      "can_see_financials": false,
+      "can_see_compliance": true,
+      "can_see_security_logs": false
+    },
+    "it_security": {
+      "description": "IT and Security teams",
+      "allowed_sources": [
+        "IT_Security_Policy_2024",
+        "security_audit_logs",
+        "application_logs",
+        "it_assets",
+        "Operations_Summary_Dec2024"
+      ],
+      "denied_sources": [
+        "Q4_Financial_Report_2024",
+        "HR_Policy_Handbook_2024"
+      ],
+      "can_see_salaries": false,
+      "can_see_financials": false,
+      "can_see_compliance": true,
+      "can_see_security_logs": true
+    },
+    "operations": {
+      "description": "Operations and Engineering",
+      "allowed_sources": [
+        "Operations_Summary_Dec2024",
+        "it_assets",
+        "application_logs",
+        "IT_Security_Policy_2024"
+      ],
+      "denied_sources": [
+        "Q4_Financial_Report_2024",
+        "HR_Policy_Handbook_2024",
+        "Compliance_Audit_2024"
+      ],
+      "can_see_salaries": false,
+      "can_see_financials": false,
+      "can_see_compliance": false,
+      "can_see_security_logs": false
+    },
+    "employee": {
+      "description": "General employee \u2014 basic access only",
+      "allowed_sources": [
+        "HR_Policy_Handbook_2024"
+      ],
+      "denied_sources": [
+        "Q4_Financial_Report_2024",
+        "Compliance_Audit_2024",
+        "security_audit_logs",
+        "employees",
+        "vendor_contracts"
+      ],
+      "can_see_salaries": false,
+      "can_see_financials": false,
+      "can_see_compliance": false,
+      "can_see_security_logs": false
+    }
+  },
+  "users": {
+    "sarah.mitchell": {
+      "role": "executive",
+      "name": "Sarah Mitchell",
+      "dept": "Finance"
+    },
+    "james.okafor": {
+      "role": "hr",
+      "name": "James Okafor",
+      "dept": "HR"
+    },
+    "dr.priya.nair": {
+      "role": "it_security",
+      "name": "Dr. Priya Nair",
+      "dept": "IT Security"
+    },
+    "marcus.chen": {
+      "role": "operations",
+      "name": "Marcus Chen",
+      "dept": "Operations"
+    },
+    "alice.chen": {
+      "role": "operations",
+      "name": "Alice Chen",
+      "dept": "Engineering"
+    },
+    "bob.martinez": {
+      "role": "finance",
+      "name": "Bob Martinez",
+      "dept": "Finance"
+    },
+    "david.kim": {
+      "role": "it_security",
+      "name": "David Kim",
+      "dept": "IT Security"
+    },
+    "henry.park": {
+      "role": "employee",
+      "name": "Henry Park",
+      "dept": "Sales"
+    },
+    "amanda.torres": {
+      "role": "finance",
+      "name": "Amanda Torres",
+      "dept": "Compliance"
+    },
+    "guest": {
+      "role": "employee",
+      "name": "Guest User",
+      "dept": "General"
+    }
+  }
+}
