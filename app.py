@@ -1,15 +1,20 @@
 """
 Enterprise RAG Intelligence System
 ACME Corporation Internal AI Assistant
-
+Streamlit UI — Production Grade
 """
 
 import os
 import sys
 import time
+
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.getcwd())
+
 import streamlit as st
 
-# ─── PAGE CONFIG (must be first Streamlit call) ───────────────────────────────
+#  PAGE CONFIG 
 st.set_page_config(
     page_title="ACME Enterprise RAG",
     page_icon="🔐",
@@ -21,7 +26,7 @@ st.set_page_config(
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core.pipeline import EnterprisePipeline
 
-# ─── CUSTOM CSS ───────────────────────────────────────────────────────────────
+#  CUSTOM CSS 
 
 st.markdown("""
 <style>
@@ -651,6 +656,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align:center; color:#94a3b8; font-size:0.78rem; padding:12px 0;">
     ACME Enterprise RAG Intelligence System &nbsp;·&nbsp;
+    Built with GPT-4o + ChromaDB + Sentence Transformers &nbsp;·&nbsp;
     All responses grounded in enterprise data &nbsp;·&nbsp; RBAC enforced
 </div>
 """, unsafe_allow_html=True)

@@ -1,0 +1,33 @@
+
+ACME CORPORATION — ANNUAL COMPLIANCE AUDIT REPORT 2024
+LEGAL & COMPLIANCE DEPARTMENT — STRICTLY CONFIDENTIAL
+
+AUDIT SCOPE
+This report covers SOC 2 Type II, ISO 27001, GDPR, and CCPA compliance for FY2024.
+
+SOC 2 TYPE II RESULTS
+Overall assessment: PASSED
+- Security (CC6-CC9): Fully compliant
+- Availability (A1): Fully compliant
+- Confidentiality (C1): Minor finding — 3 instances of unencrypted data at rest in dev environment
+- Processing Integrity (PI1): Fully compliant
+
+GDPR COMPLIANCE
+Status: Compliant with 2 observations
+- Data subject request processing time: avg 18 days (target: <30 days) ✓
+- Observation 1: Cookie consent banners need updating for new EU guidance (due Q1 2025)
+- Observation 2: Data retention policy not enforced for 2 legacy systems (remediation in progress)
+
+DSARs processed in 2024: 847 requests
+Data breaches reported: 0 (zero reportable breaches)
+
+CCPA COMPLIANCE
+Status: Compliant
+Opt-out requests processed: 1,203
+Do-not-sell requests: 312
+
+PENALTIES & REGULATORY ACTIONS
+No fines or regulatory actions in FY2024.
+
+Next audit scheduled: Q2 2025
+Chief Compliance Officer: Amanda Torres

@@ -1,0 +1,38 @@
+
+ACME CORPORATION — INFORMATION SECURITY POLICY 2024
+IT DEPARTMENT & ALL EMPLOYEES
+
+1. ACCEPTABLE USE
+Company systems are for business use only. Personal use is permitted in moderation
+provided it does not interfere with work or violate this policy.
+
+2. ACCESS CONTROL REQUIREMENTS
+- All systems require MFA authentication as of Q3 2024
+- Passwords must be 14+ characters, rotated every 90 days
+- Privileged access requires additional approval via PAM system
+- Zero-trust network access implemented for all remote connections
+
+3. DATA CLASSIFICATION
+CONFIDENTIAL: Financial records, PII, strategic plans, M&A activity
+INTERNAL: Operational data, policies, general business data
+PUBLIC: Marketing materials, public documentation
+
+4. INCIDENT RESPONSE
+Security incidents must be reported to security@acme.com within 1 hour of detection.
+P1 (Critical): Response within 15 minutes, CISO notified immediately
+P2 (High): Response within 2 hours
+P3 (Medium): Response within 24 hours
+
+5. VULNERABILITY MANAGEMENT
+- Critical CVEs patched within 24 hours
+- High CVEs patched within 7 days
+- Monthly security scanning for all production systems
+- Penetration testing conducted annually (Q2)
+
+6. CLOUD SECURITY
+All cloud workloads must be tagged with owner, environment, and data classification.
+Untagged resources are automatically suspended after 72 hours.
+AWS GuardDuty, SecurityHub, and Config Rules enforced across all accounts.
+
+CISO: Dr. Priya Nair
+Last Updated: November 2024

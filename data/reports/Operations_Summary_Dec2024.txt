@@ -1,0 +1,34 @@
+
+ACME CORPORATION — OPERATIONS SUMMARY
+DECEMBER 2024 | OPERATIONS DEPARTMENT
+
+SYSTEM UPTIME & RELIABILITY
+- Production API uptime: 99.94% (target: 99.9%) ✓
+- Database cluster uptime: 99.97%
+- CDN availability: 100%
+- P50 API latency: 42ms | P95: 187ms | P99: 412ms
+
+INCIDENTS THIS MONTH
+- DEC-001: Database failover triggered Dec 3rd, 14:23 UTC. RCA: memory pressure on primary node.
+  Duration: 4 minutes 12 seconds. Impact: ~0.3% of requests failed.
+- DEC-002: Deployment pipeline stalled Dec 11th. Cause: third-party dependency version conflict.
+  Duration: 2.5 hours. No customer impact.
+
+CAPACITY PLANNING
+Current utilization:
+- Compute: 67% average (peak: 84% on Dec 20th)
+- Storage: 71% (growing ~3.2TB/month)
+- Network: 42% of provisioned bandwidth
+
+Recommendations:
+- Scale compute by 20% ahead of Q1 2025 growth projections
+- Archive cold data (>18 months) to reduce storage costs by est. $12,400/month
+- Evaluate CDN provider contract renewal in March 2025
+
+DEPLOYMENTS
+Total deployments in December: 47
+Successful: 45 (95.7%)
+Rolled back: 2 (DEC-DEP-031, DEC-DEP-039 — both due to integration test failures)
+
+Head of Operations: Marcus Chen
+Report Date: January 2, 2025

@@ -1,0 +1,33 @@
+
+ACME CORPORATION — Q4 2024 FINANCIAL REPORT
+CONFIDENTIAL — FINANCE DEPARTMENT ONLY
+
+Executive Summary
+-----------------
+ACME Corporation closed Q4 2024 with total revenue of $142.7 million, representing
+a 23% year-over-year increase. Net profit margin improved to 18.4% from 15.1% in Q3.
+
+Revenue Breakdown by Division:
+- North America Enterprise: $67.3M (47.2% of total)
+- EMEA Region: $38.9M (27.3% of total)
+- APAC Region: $24.1M (16.9% of total)
+- Emerging Markets: $12.4M (8.7% of total)
+
+Key Financial Metrics:
+- EBITDA: $38.2M (up 31% QoQ)
+- Operating Cash Flow: $29.7M
+- R&D Investment: $14.8M (10.4% of revenue)
+- Customer Acquisition Cost: $3,240 (down 12% from Q3)
+
+Budget Forecast for Q1 2025:
+Total projected revenue: $155M–$162M
+Approved headcount additions: 47 FTEs across Engineering and Sales
+Capital expenditure approved: $8.3M for infrastructure modernization
+
+Risk Factors:
+- FX exposure in EMEA (~$4.2M risk at current rates)
+- Supply chain delays affecting hardware division (est. $1.1M impact)
+- Regulatory compliance costs in EU: est. $2.3M in Q1
+
+Signed: CFO Sarah Mitchell
+Date: January 15, 2025

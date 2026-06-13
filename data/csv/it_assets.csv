@@ -1,0 +1,9 @@
+asset_id,asset_name,category,assigned_to,status,purchase_date,cost_usd
+ASSET001,MacBook Pro 16 M3,Laptop,EMP001,active,2023-09-01,3499
+ASSET002,MacBook Pro 14 M2,Laptop,EMP002,active,2022-11-15,2199
+ASSET003,Dell Server R740,Server,IT-POOL,active,2021-06-01,12500
+ASSET004,Cisco Switch 9300,Network,IT-POOL,active,2022-01-10,8400
+ASSET005,iPhone 15 Pro,Mobile,EMP010,active,2023-10-01,1199
+ASSET006,MacBook Air M2,Laptop,EMP009,active,2023-08-21,1299
+ASSET007,YubiKey 5C,Security Token,EMP004,active,2024-01-05,75
+ASSET008,4K Monitor LG 32,Display,EMP006,active,2022-03-14,899
