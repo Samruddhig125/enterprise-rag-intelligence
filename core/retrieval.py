@@ -118,8 +118,7 @@ class VectorStoreEngine:
             source_file = meta.get("source_file", "")
 
             # RBAC check — skip if not permitted
-            if not rbac.can_access_source(user, source_name) and \
-               not rbac.can_access_source(user, source_file):
+            if not rbac.can_access_chunk(user, source_name, source_file):
                 continue
 
             # Convert cosine distance to similarity score

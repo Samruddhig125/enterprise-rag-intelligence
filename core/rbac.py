@@ -77,6 +77,23 @@ class RBACEngine:
 
         return False
 
+    def can_access_chunk(self, user: User, source_name: str, source_file: str = "") -> bool:
+        """
+        Check a chunk against BOTH its display name and its filename.
+        A match on either denied pattern blocks it; an allowed match on either lets it through.
+        (Checking the two separately and OR-ing the results would let a denied source
+        slip through whenever the other label happened to match an allowed pattern.)
+        """
+        role_cfg = self.get_role_config(user.role)
+        allowed = role_cfg["allowed_sources"]
+        denied = role_cfg["denied_sources"]
+        if "*" in allowed:
+            return True
+        labels = [source_name.lower(), (source_file or "").lower()]
+        if any(d.lower() in label for d in denied for label in labels):
+            return False
+        return any(a.lower() in label for a in allowed for label in labels)
+
     def filter_sources(self, user: User, candidate_sources: list[str]) -> list[str]:
         """Return only sources this user can access"""
         return [s for s in candidate_sources if self.can_access_source(user, s)]
