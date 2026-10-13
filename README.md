@@ -2,6 +2,8 @@
 
 
 ---
+###Link to the project
+ <a href="https://enterprise-rag-intelligence-fymztke7sbehtqjxut7phq.streamlit.app/">Live</a>
 
 ##  Architecture Overview
 
